@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SplashViewController" customModule="FishApp" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="zg2-IW-10B"/>
+                <outlet property="view" destination="iN0-l3-epB" id="aAd-zu-I5X"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splashFish" translatesAutoresizingMaskIntoConstraints="NO" id="k0D-vD-oG0">
+                    <rect key="frame" x="83" y="348.5" width="248" height="199"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="k0D-vD-oG0" secondAttribute="height" multiplier="5:4" id="8F3-Ek-z4L"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="k0D-vD-oG0" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="GzJ-ul-vDD"/>
+                <constraint firstItem="k0D-vD-oG0" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.6" id="cWH-QF-pCf"/>
+                <constraint firstItem="k0D-vD-oG0" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="dzn-1P-cOx"/>
+            </constraints>
+            <point key="canvasLocation" x="141" y="135"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="splashFish" width="1066.5" height="1066.5"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

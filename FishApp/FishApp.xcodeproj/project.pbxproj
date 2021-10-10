@@ -3,20 +3,25 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1E16194C4DAB6951E183C401 /* Pods_FishAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7145FCD73993DBAC8FDED998 /* Pods_FishAppTests.framework */; };
 		71704A8759CB97449D3A7B65 /* Pods_FishApp_FishAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8931B67457A732EE65EA7EC5 /* Pods_FishApp_FishAppUITests.framework */; };
 		8BB0D83E2712C84500115162 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB0D83D2712C84500115162 /* AppDelegate.swift */; };
-		8BB0D8402712C84500115162 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB0D83F2712C84500115162 /* SceneDelegate.swift */; };
-		8BB0D8422712C84500115162 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB0D8412712C84500115162 /* ViewController.swift */; };
-		8BB0D8452712C84500115162 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BB0D8432712C84500115162 /* Main.storyboard */; };
 		8BB0D8472712C84A00115162 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BB0D8462712C84A00115162 /* Assets.xcassets */; };
-		8BB0D84A2712C84A00115162 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BB0D8482712C84A00115162 /* LaunchScreen.storyboard */; };
 		8BB0D8552712C84A00115162 /* FishAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB0D8542712C84A00115162 /* FishAppTests.swift */; };
 		8BB0D8602712C84A00115162 /* FishAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB0D85F2712C84A00115162 /* FishAppUITests.swift */; };
+		8BB0D8822712D1B700115162 /* RootRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB0D8812712D1B700115162 /* RootRouter.swift */; };
+		8BB0D8902712D32100115162 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB0D88F2712D32100115162 /* SplashViewController.swift */; };
+		8BB0D8982712D36700115162 /* SplashPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB0D8972712D36700115162 /* SplashPresenter.swift */; };
+		8BB0D89D2712D3AB00115162 /* SplashProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB0D89C2712D3AB00115162 /* SplashProtocols.swift */; };
+		8BB0D8A22712D52D00115162 /* SplashInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB0D8A12712D52D00115162 /* SplashInteractor.swift */; };
+		8BB0D8A72712D5D700115162 /* SplashRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB0D8A62712D5D700115162 /* SplashRouter.swift */; };
+		8BB0D8DD2712DC8500115162 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB0D8DC2712DC8500115162 /* R.generated.swift */; };
+		8BB0D8E22712DCF300115162 /* SplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BB0D8E12712DCF300115162 /* SplashViewController.xib */; };
+		8BB0D8E92712DE9700115162 /* UIView+Gradation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB0D8E82712DE9700115162 /* UIView+Gradation.swift */; };
 		E1D592A0981F4D69631A956F /* Pods_FishApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14B5CD11506F129875D791A5 /* Pods_FishApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,11 +51,7 @@
 		8931B67457A732EE65EA7EC5 /* Pods_FishApp_FishAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FishApp_FishAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BB0D83A2712C84500115162 /* FishApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FishApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BB0D83D2712C84500115162 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8BB0D83F2712C84500115162 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8BB0D8412712C84500115162 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8BB0D8442712C84500115162 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8BB0D8462712C84A00115162 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8BB0D8492712C84A00115162 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8BB0D84B2712C84A00115162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BB0D8502712C84A00115162 /* FishAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FishAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BB0D8542712C84A00115162 /* FishAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishAppTests.swift; sourceTree = "<group>"; };
@@ -58,6 +59,15 @@
 		8BB0D85B2712C84A00115162 /* FishAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FishAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BB0D85F2712C84A00115162 /* FishAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishAppUITests.swift; sourceTree = "<group>"; };
 		8BB0D8612712C84A00115162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BB0D8812712D1B700115162 /* RootRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootRouter.swift; sourceTree = "<group>"; };
+		8BB0D88F2712D32100115162 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		8BB0D8972712D36700115162 /* SplashPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashPresenter.swift; sourceTree = "<group>"; };
+		8BB0D89C2712D3AB00115162 /* SplashProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashProtocols.swift; sourceTree = "<group>"; };
+		8BB0D8A12712D52D00115162 /* SplashInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashInteractor.swift; sourceTree = "<group>"; };
+		8BB0D8A62712D5D700115162 /* SplashRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashRouter.swift; sourceTree = "<group>"; };
+		8BB0D8DC2712DC8500115162 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
+		8BB0D8E12712DCF300115162 /* SplashViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashViewController.xib; sourceTree = "<group>"; };
+		8BB0D8E82712DE9700115162 /* UIView+Gradation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Gradation.swift"; sourceTree = "<group>"; };
 		916869324C789BD4F91FEE1C /* Pods-FishApp-FishAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FishApp-FishAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-FishApp-FishAppUITests/Pods-FishApp-FishAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		956E2B476944A28F6309AA5D /* Pods-FishAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FishAppTests.debug.xcconfig"; path = "Target Support Files/Pods-FishAppTests/Pods-FishAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9974469AB39638E1E3A8F8B5 /* Pods-FishAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FishAppTests.release.xcconfig"; path = "Target Support Files/Pods-FishAppTests/Pods-FishAppTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -116,13 +126,10 @@
 		8BB0D83C2712C84500115162 /* FishApp */ = {
 			isa = PBXGroup;
 			children = (
+				8BB0D8DC2712DC8500115162 /* R.generated.swift */,
 				8BB0D8712712CC9100115162 /* Class */,
-				8BB0D83F2712C84500115162 /* SceneDelegate.swift */,
-				8BB0D8412712C84500115162 /* ViewController.swift */,
-				8BB0D8432712C84500115162 /* Main.storyboard */,
-				8BB0D8462712C84A00115162 /* Assets.xcassets */,
-				8BB0D8482712C84A00115162 /* LaunchScreen.storyboard */,
 				8BB0D84B2712C84A00115162 /* Info.plist */,
+				8BB0D8AE2712D8E000115162 /* Resource */,
 			);
 			path = FishApp;
 			sourceTree = "<group>";
@@ -156,8 +163,8 @@
 			isa = PBXGroup;
 			children = (
 				8BB0D83D2712C84500115162 /* AppDelegate.swift */,
+				8BB0D8E62712DE5300115162 /* Util */,
 				8BB0D8722712CCA800115162 /* Module */,
-				8BB0D8702712CC1B00115162 /* Top */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -165,8 +172,96 @@
 		8BB0D8722712CCA800115162 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				8BB0D8802712D19800115162 /* Root */,
+				8BB0D8892712D2A600115162 /* Splash */,
+				8BB0D8702712CC1B00115162 /* Top */,
 			);
 			path = Module;
+			sourceTree = "<group>";
+		};
+		8BB0D8802712D19800115162 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				8BB0D8812712D1B700115162 /* RootRouter.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		8BB0D8892712D2A600115162 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				8BB0D88E2712D30900115162 /* Protocols */,
+				8BB0D88D2712D30000115162 /* View */,
+				8BB0D88C2712D2F700115162 /* Presenter */,
+				8BB0D88B2712D2EE00115162 /* interactor */,
+				8BB0D88A2712D2DF00115162 /* Router */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		8BB0D88A2712D2DF00115162 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				8BB0D8A62712D5D700115162 /* SplashRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		8BB0D88B2712D2EE00115162 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				8BB0D8A12712D52D00115162 /* SplashInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		8BB0D88C2712D2F700115162 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				8BB0D8972712D36700115162 /* SplashPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		8BB0D88D2712D30000115162 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8BB0D88F2712D32100115162 /* SplashViewController.swift */,
+				8BB0D8E12712DCF300115162 /* SplashViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8BB0D88E2712D30900115162 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				8BB0D89C2712D3AB00115162 /* SplashProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		8BB0D8AE2712D8E000115162 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				8BB0D8462712C84A00115162 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		8BB0D8E62712DE5300115162 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				8BB0D8E72712DE6700115162 /* Extension */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		8BB0D8E72712DE6700115162 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8BB0D8E82712DE9700115162 /* UIView+Gradation.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		C6AE5554548A5D13E42A6788 /* Frameworks */ = {
@@ -189,7 +284,6 @@
 				956E2B476944A28F6309AA5D /* Pods-FishAppTests.debug.xcconfig */,
 				9974469AB39638E1E3A8F8B5 /* Pods-FishAppTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -201,6 +295,7 @@
 			buildConfigurationList = 8BB0D8642712C84A00115162 /* Build configuration list for PBXNativeTarget "FishApp" */;
 			buildPhases = (
 				5E69A946CBB7CF1EEDD56A6D /* [CP] Check Pods Manifest.lock */,
+				8BB0D8B22712DA8200115162 /* Rswift Run Script */,
 				8BB0D8362712C84500115162 /* Sources */,
 				8BB0D8372712C84500115162 /* Frameworks */,
 				8BB0D8382712C84500115162 /* Resources */,
@@ -301,9 +396,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BB0D84A2712C84A00115162 /* LaunchScreen.storyboard in Resources */,
 				8BB0D8472712C84A00115162 /* Assets.xcassets in Resources */,
-				8BB0D8452712C84500115162 /* Main.storyboard in Resources */,
+				8BB0D8E22712DCF300115162 /* SplashViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +501,26 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		8BB0D8B22712DA8200115162 /* Rswift Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$TEMP_DIR/rswift-lastrun",
+			);
+			name = "Rswift Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"\n\n";
+		};
 		AF024DC7D2909451C9DB2AA0 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -431,9 +545,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BB0D8422712C84500115162 /* ViewController.swift in Sources */,
+				8BB0D8822712D1B700115162 /* RootRouter.swift in Sources */,
 				8BB0D83E2712C84500115162 /* AppDelegate.swift in Sources */,
-				8BB0D8402712C84500115162 /* SceneDelegate.swift in Sources */,
+				8BB0D89D2712D3AB00115162 /* SplashProtocols.swift in Sources */,
+				8BB0D8902712D32100115162 /* SplashViewController.swift in Sources */,
+				8BB0D8982712D36700115162 /* SplashPresenter.swift in Sources */,
+				8BB0D8DD2712DC8500115162 /* R.generated.swift in Sources */,
+				8BB0D8A72712D5D700115162 /* SplashRouter.swift in Sources */,
+				8BB0D8A22712D52D00115162 /* SplashInteractor.swift in Sources */,
+				8BB0D8E92712DE9700115162 /* UIView+Gradation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,25 +587,6 @@
 			targetProxy = 8BB0D85C2712C84A00115162 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		8BB0D8432712C84500115162 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8BB0D8442712C84500115162 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		8BB0D8482712C84A00115162 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8BB0D8492712C84A00115162 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		8BB0D8622712C84A00115162 /* Debug */ = {
@@ -539,7 +640,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -594,7 +695,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -620,7 +721,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.learningdesign.FishApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -640,7 +741,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.learningdesign.FishApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
