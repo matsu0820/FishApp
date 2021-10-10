@@ -9,7 +9,6 @@ import UIKit
 
 extension UIView {
     
-    
     /// 背景色をグラデーションにする設定
     /// - Parameters:
     ///   - topColor: View上部の色

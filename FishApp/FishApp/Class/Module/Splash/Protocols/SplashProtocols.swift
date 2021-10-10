@@ -31,6 +31,6 @@ protocol SplashInteractorOutProtocol: AnyObject {
 
 // MARK: - Router
 
-protocol SplashRouterProtocol {
+protocol SplashRouterProtocol: AnyObject {
     
 }

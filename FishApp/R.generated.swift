@@ -142,10 +142,12 @@ struct R: Rswift.Validatable {
     fileprivate init() {}
   }
 
-  /// This `R.nib` struct is generated, and contains static references to 1 nibs.
+  /// This `R.nib` struct is generated, and contains static references to 2 nibs.
   struct nib {
     /// Nib `SplashViewController`.
     static let splashViewController = _R.nib._SplashViewController()
+    /// Nib `TopViewController`.
+    static let topViewController = _R.nib._TopViewController()
 
     #if os(iOS) || os(tvOS)
     /// `UINib(name: "SplashViewController", in: bundle)`
@@ -155,8 +157,20 @@ struct R: Rswift.Validatable {
     }
     #endif
 
+    #if os(iOS) || os(tvOS)
+    /// `UINib(name: "TopViewController", in: bundle)`
+    @available(*, deprecated, message: "Use UINib(resource: R.nib.topViewController) instead")
+    static func topViewController(_: Void = ()) -> UIKit.UINib {
+      return UIKit.UINib(resource: R.nib.topViewController)
+    }
+    #endif
+
     static func splashViewController(owner ownerOrNil: AnyObject?, options optionsOrNil: [UINib.OptionsKey : Any]? = nil) -> UIKit.UIView? {
       return R.nib.splashViewController.instantiate(withOwner: ownerOrNil, options: optionsOrNil)[0] as? UIKit.UIView
+    }
+
+    static func topViewController(owner ownerOrNil: AnyObject?, options optionsOrNil: [UINib.OptionsKey : Any]? = nil) -> UIKit.UIView? {
+      return R.nib.topViewController.instantiate(withOwner: ownerOrNil, options: optionsOrNil)[0] as? UIKit.UIView
     }
 
     fileprivate init() {}
@@ -200,6 +214,17 @@ struct _R: Rswift.Validatable {
         if UIKit.UIImage(named: "splashFish", in: R.hostingBundle, compatibleWith: nil) == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'splashFish' is used in nib 'SplashViewController', but couldn't be loaded.") }
         if #available(iOS 11.0, tvOS 11.0, *) {
         }
+      }
+
+      fileprivate init() {}
+    }
+
+    struct _TopViewController: Rswift.NibResourceType {
+      let bundle = R.hostingBundle
+      let name = "TopViewController"
+
+      func firstView(owner ownerOrNil: AnyObject?, options optionsOrNil: [UINib.OptionsKey : Any]? = nil) -> UIKit.UIView? {
+        return instantiate(withOwner: ownerOrNil, options: optionsOrNil)[0] as? UIKit.UIView
       }
 
       fileprivate init() {}

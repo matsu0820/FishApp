@@ -22,6 +22,12 @@
 		8BB0D8DD2712DC8500115162 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB0D8DC2712DC8500115162 /* R.generated.swift */; };
 		8BB0D8E22712DCF300115162 /* SplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BB0D8E12712DCF300115162 /* SplashViewController.xib */; };
 		8BB0D8E92712DE9700115162 /* UIView+Gradation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB0D8E82712DE9700115162 /* UIView+Gradation.swift */; };
+		8BB0D91B2712F0E100115162 /* TopProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB0D91A2712F0E100115162 /* TopProtocols.swift */; };
+		8BB0D9242712F13500115162 /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB0D9222712F13500115162 /* TopViewController.swift */; };
+		8BB0D9252712F13500115162 /* TopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BB0D9232712F13500115162 /* TopViewController.xib */; };
+		8BB0D92A2712F15900115162 /* TopPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB0D9292712F15900115162 /* TopPresenter.swift */; };
+		8BB0D92F2712F16800115162 /* TopInterctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB0D92E2712F16800115162 /* TopInterctor.swift */; };
+		8BB0D9342712F17600115162 /* TopRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB0D9332712F17600115162 /* TopRouter.swift */; };
 		E1D592A0981F4D69631A956F /* Pods_FishApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14B5CD11506F129875D791A5 /* Pods_FishApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -68,6 +74,12 @@
 		8BB0D8DC2712DC8500115162 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
 		8BB0D8E12712DCF300115162 /* SplashViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashViewController.xib; sourceTree = "<group>"; };
 		8BB0D8E82712DE9700115162 /* UIView+Gradation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Gradation.swift"; sourceTree = "<group>"; };
+		8BB0D91A2712F0E100115162 /* TopProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopProtocols.swift; sourceTree = "<group>"; };
+		8BB0D9222712F13500115162 /* TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
+		8BB0D9232712F13500115162 /* TopViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopViewController.xib; sourceTree = "<group>"; };
+		8BB0D9292712F15900115162 /* TopPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopPresenter.swift; sourceTree = "<group>"; };
+		8BB0D92E2712F16800115162 /* TopInterctor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopInterctor.swift; sourceTree = "<group>"; };
+		8BB0D9332712F17600115162 /* TopRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRouter.swift; sourceTree = "<group>"; };
 		916869324C789BD4F91FEE1C /* Pods-FishApp-FishAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FishApp-FishAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-FishApp-FishAppUITests/Pods-FishApp-FishAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		956E2B476944A28F6309AA5D /* Pods-FishAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FishAppTests.debug.xcconfig"; path = "Target Support Files/Pods-FishAppTests/Pods-FishAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9974469AB39638E1E3A8F8B5 /* Pods-FishAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FishAppTests.release.xcconfig"; path = "Target Support Files/Pods-FishAppTests/Pods-FishAppTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -155,6 +167,11 @@
 		8BB0D8702712CC1B00115162 /* Top */ = {
 			isa = PBXGroup;
 			children = (
+				8BB0D9152712F02800115162 /* Protocols */,
+				8BB0D9162712F03000115162 /* View */,
+				8BB0D9172712F04200115162 /* Presetner */,
+				8BB0D9182712F04A00115162 /* Interactor */,
+				8BB0D9192712F05100115162 /* Router */,
 			);
 			path = Top;
 			sourceTree = "<group>";
@@ -262,6 +279,47 @@
 				8BB0D8E82712DE9700115162 /* UIView+Gradation.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		8BB0D9152712F02800115162 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				8BB0D91A2712F0E100115162 /* TopProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		8BB0D9162712F03000115162 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8BB0D9222712F13500115162 /* TopViewController.swift */,
+				8BB0D9232712F13500115162 /* TopViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8BB0D9172712F04200115162 /* Presetner */ = {
+			isa = PBXGroup;
+			children = (
+				8BB0D9292712F15900115162 /* TopPresenter.swift */,
+			);
+			path = Presetner;
+			sourceTree = "<group>";
+		};
+		8BB0D9182712F04A00115162 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				8BB0D92E2712F16800115162 /* TopInterctor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		8BB0D9192712F05100115162 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				8BB0D9332712F17600115162 /* TopRouter.swift */,
+			);
+			path = Router;
 			sourceTree = "<group>";
 		};
 		C6AE5554548A5D13E42A6788 /* Frameworks */ = {
@@ -398,6 +456,7 @@
 			files = (
 				8BB0D8472712C84A00115162 /* Assets.xcassets in Resources */,
 				8BB0D8E22712DCF300115162 /* SplashViewController.xib in Resources */,
+				8BB0D9252712F13500115162 /* TopViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -547,8 +606,13 @@
 			files = (
 				8BB0D8822712D1B700115162 /* RootRouter.swift in Sources */,
 				8BB0D83E2712C84500115162 /* AppDelegate.swift in Sources */,
+				8BB0D9242712F13500115162 /* TopViewController.swift in Sources */,
 				8BB0D89D2712D3AB00115162 /* SplashProtocols.swift in Sources */,
+				8BB0D9342712F17600115162 /* TopRouter.swift in Sources */,
+				8BB0D92A2712F15900115162 /* TopPresenter.swift in Sources */,
+				8BB0D91B2712F0E100115162 /* TopProtocols.swift in Sources */,
 				8BB0D8902712D32100115162 /* SplashViewController.swift in Sources */,
+				8BB0D92F2712F16800115162 /* TopInterctor.swift in Sources */,
 				8BB0D8982712D36700115162 /* SplashPresenter.swift in Sources */,
 				8BB0D8DD2712DC8500115162 /* R.generated.swift in Sources */,
 				8BB0D8A72712D5D700115162 /* SplashRouter.swift in Sources */,
