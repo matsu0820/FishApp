@@ -1,0 +1,28 @@
+PODS:
+  - R.swift (5.2.2):
+    - R.swift.Library (~> 5.2.0)
+  - R.swift.Library (5.2.0)
+  - SideMenu (6.5.0)
+  - SwiftLint (0.44.0)
+
+DEPENDENCIES:
+  - R.swift (= 5.2.2)
+  - SideMenu (~> 6.0)
+  - SwiftLint (= 0.44.0)
+
+SPEC REPOS:
+  trunk:
+    - R.swift
+    - R.swift.Library
+    - SideMenu
+    - SwiftLint
+
+SPEC CHECKSUMS:
+  R.swift: 7c52cdc57a66840ffe6cbd8a823d732059d42a32
+  R.swift.Library: 5ba4f1631300caf9a4d890186930da85d540769d
+  SideMenu: f583187d21c5b1dd04c72002be544b555a2627a2
+  SwiftLint: e96c0a8c770c7ebbc4d36c55baf9096bb65c4584
+
+PODFILE CHECKSUM: 32adfdfd1d3b71a3aa16410218d922b4b56c0e5c
+
+COCOAPODS: 1.8.4

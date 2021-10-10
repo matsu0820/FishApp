@@ -1,0 +1,24 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '13.0'
+
+target 'FishApp' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  inhibit_all_warnings!
+
+  # SwiftLint
+  pod 'SwiftLint', '0.44.0'
+  # R.Swift
+  pod 'R.swift', '5.2.2'
+  # SideMenu
+  pod 'SideMenu', '~> 6.0'
+
+  # Pods for FishApp
+  target 'FishAppTests' do
+    inherit! :search_paths    # Pods for testing
+  end
+
+  target 'FishAppUITests' do
+    # Pods for testing
+  end
+end
