@@ -28,6 +28,8 @@
 		8BB0D92A2712F15900115162 /* TopPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB0D9292712F15900115162 /* TopPresenter.swift */; };
 		8BB0D92F2712F16800115162 /* TopInterctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB0D92E2712F16800115162 /* TopInterctor.swift */; };
 		8BB0D9342712F17600115162 /* TopRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB0D9332712F17600115162 /* TopRouter.swift */; };
+		8BB0D93A2713186500115162 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB0D9392713186500115162 /* Const.swift */; };
+		8BDCC74E27152E65000BE33A /* UIViewController+PresentFulllScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDCC74D27152E65000BE33A /* UIViewController+PresentFulllScreen.swift */; };
 		E1D592A0981F4D69631A956F /* Pods_FishApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14B5CD11506F129875D791A5 /* Pods_FishApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -80,6 +82,8 @@
 		8BB0D9292712F15900115162 /* TopPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopPresenter.swift; sourceTree = "<group>"; };
 		8BB0D92E2712F16800115162 /* TopInterctor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopInterctor.swift; sourceTree = "<group>"; };
 		8BB0D9332712F17600115162 /* TopRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRouter.swift; sourceTree = "<group>"; };
+		8BB0D9392713186500115162 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		8BDCC74D27152E65000BE33A /* UIViewController+PresentFulllScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+PresentFulllScreen.swift"; sourceTree = "<group>"; };
 		916869324C789BD4F91FEE1C /* Pods-FishApp-FishAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FishApp-FishAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-FishApp-FishAppUITests/Pods-FishApp-FishAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		956E2B476944A28F6309AA5D /* Pods-FishAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FishAppTests.debug.xcconfig"; path = "Target Support Files/Pods-FishAppTests/Pods-FishAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9974469AB39638E1E3A8F8B5 /* Pods-FishAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FishAppTests.release.xcconfig"; path = "Target Support Files/Pods-FishAppTests/Pods-FishAppTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -268,6 +272,7 @@
 		8BB0D8E62712DE5300115162 /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				8BB0D9382713185700115162 /* Const */,
 				8BB0D8E72712DE6700115162 /* Extension */,
 			);
 			path = Util;
@@ -277,6 +282,7 @@
 			isa = PBXGroup;
 			children = (
 				8BB0D8E82712DE9700115162 /* UIView+Gradation.swift */,
+				8BDCC74D27152E65000BE33A /* UIViewController+PresentFulllScreen.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -320,6 +326,14 @@
 				8BB0D9332712F17600115162 /* TopRouter.swift */,
 			);
 			path = Router;
+			sourceTree = "<group>";
+		};
+		8BB0D9382713185700115162 /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				8BB0D9392713186500115162 /* Const.swift */,
+			);
+			path = Const;
 			sourceTree = "<group>";
 		};
 		C6AE5554548A5D13E42A6788 /* Frameworks */ = {
@@ -616,8 +630,10 @@
 				8BB0D8982712D36700115162 /* SplashPresenter.swift in Sources */,
 				8BB0D8DD2712DC8500115162 /* R.generated.swift in Sources */,
 				8BB0D8A72712D5D700115162 /* SplashRouter.swift in Sources */,
+				8BDCC74E27152E65000BE33A /* UIViewController+PresentFulllScreen.swift in Sources */,
 				8BB0D8A22712D52D00115162 /* SplashInteractor.swift in Sources */,
 				8BB0D8E92712DE9700115162 /* UIView+Gradation.swift in Sources */,
+				8BB0D93A2713186500115162 /* Const.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,12 +11,16 @@ import Foundation
 
 protocol TopViewProtocol: AnyObject {
     
+    func applyUrl(_ url: URL)
 }
 
 // MARK: - Presenter
 
 protocol TopPrenseterProtocol: AnyObject {
+    var interactor: TopInteractorInputProtocol { get }
+    var router: TopRouterProtocol { get }
     
+    func viewDidLoad()
 }
 
 // MARK: - Interactor

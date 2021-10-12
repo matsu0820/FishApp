@@ -16,7 +16,7 @@ final class TopRouter {
         self.viewController = viewController
     }
     
-    static func createSplashModule() -> UIViewController {
+    static func createTopModule() -> UIViewController {
         let view = TopViewController()
         let interactor = TopInteractor()
         let router = TopRouter(viewController: view)

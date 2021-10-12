@@ -24,8 +24,9 @@ final class TopPresenter {
 
 extension TopPresenter: TopPrenseterProtocol {
     
+    /// viewDidLoad
     func viewDidLoad() {
-        
+        self.view?.applyUrl(Const.URLScheme.kBlogUrl)
     }
 }
 
